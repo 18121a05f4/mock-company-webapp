@@ -1,6 +1,8 @@
-#
-# https://help.github.com/articles/dealing-with-line-endings/
-#
-# These are explicitly windows files and should use crlf
-*.bat           text eol=crlf
+stage('Build') {
+    // TODO: Add build command, e.g., "./gradlew assemble"
+}
+
+stage('Test') {
+    // TODO: Add test command, e.g., "./gradlew test"
+}
 
